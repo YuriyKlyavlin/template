@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a,
+ul {
+	display: inline-block;
+	list-style-type: none;
+	color: #007BC5;
+	font-family: arial;
+	font-size: 18px;
+	margin: 10px 5px;
+	text-decoration: none;
+}
+p {
+	color: #000;
+}
+a:after {
+	content: "";
+	background-image: url("img/arrow.svg");
+	background-color: #c7b39b;
+	display: inline-block;  
+	height: 18px;  
+	width: 18px;  
+}

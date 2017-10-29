@@ -3,24 +3,30 @@
 	margin: 0;
 	padding: 0;
 }
-a,
+a {
+	text-decoration: none;
+	color: #007BC5;
+}
 ul {
+	margin: 20px;
+}
+li {
 	display: inline-block;
 	list-style-type: none;
-	color: #007BC5;
 	font-family: arial;
 	font-size: 18px;
-	margin: 10px 5px;
-	text-decoration: none;
+	margin: 10px 0;
 }
-p {
+li:last-child {
 	color: #000;
 }
 a:after {
 	content: "";
-	background-image: url("img/arrow.svg");
-	background-color: #c7b39b;
+	background-image: url("../img/arrow.svg");
+	background-size: cover;
+	background-color: #fff;
+	opacity: 0.2;
 	display: inline-block;  
-	height: 18px;  
-	width: 18px;  
+	height: 16px;  
+	width: 16px;  
 }
